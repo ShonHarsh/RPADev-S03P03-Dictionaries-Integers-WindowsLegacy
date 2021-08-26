@@ -35,8 +35,6 @@ After making a pull request or downloading the project, open the Main.xaml in Ui
 07/16/2021 16:27:55 => [Info] RPADev-S03P03-Dictionaries-Integers execution ended in: 00:00:01
 ```
 
-
-
 ### RPA Developer Foundation Sections
 
 1. Get Started With RPA Development
@@ -87,7 +85,19 @@ After making a pull request or downloading the project, open the Main.xaml in Ui
 
 6. Selectors In Studio
 
+   P01 [RPADev-S06P01-GetAndSortData](https://github.com/ShonHarsh/RPADev-S06P01-GetAndSortData)
+
+   P02 [RPADev-S06P02-SetData](https://github.com/ShonHarsh/RPADev-S06P02-SetData)
+
+   P03 [RPADev-S06P03-Highlight-TypeItems](https://github.com/ShonHarsh/RPADev-S06P03-Highlight-TypeItems)
+
 7. Project Organization In Studio
+
+   P02 [RPADev-S07P02-StateMachines](https://github.com/ShonHarsh/RPADev-S07P02-StateMachines)
+
+   P03 [RPADev-S07P03-FixMyWorkflow](https://github.com/ShonHarsh/RPADev-S07P03-FixMyWorkflow)
+
+   P04 [RPADev-S07P04-Libraries](https://github.com/ShonHarsh/RPADev-S07P04-Libraries)
 
 8. Error And Exception Handling In Studio
 
