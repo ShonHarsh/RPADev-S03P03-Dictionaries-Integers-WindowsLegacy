@@ -8,6 +8,14 @@ This project is my solution in **C#** to the **Dictionaries & Integers** practic
 
 After making a pull request or downloading the project, open the Main.xaml in UiPath Studio.  The robot can be run with the play button in the ribbon and the result can be seen in output pane.
 
+#### PRACTICE REQUIREMENTS
+
+###### **Calculate and print the number of victories of each Tour de France winner**
+
+Given an input dictionary containing a year and a name, please calculate the number of victories of each winner and print all the names of the winners with the number of corresponding victories.
+
+**Note:** Initialize a dictionary of type (Int32, String) with the following value - New Dictionary(Of Int32,String) From {{2006,"Oscar Pereiro"},{2007,"Alberto Contador"}, {2008, "Carlos Sastre"}, {2009,"Alberto Contador"}, {2010, "Andy Schleck"}, {2011, "Cadel Evans"}, {2012,"Bradley Wiggins"}, {2013,"Chris Froome"}, {2014,"Vincenzo Nibali"},{2015,"Chris Froome"},{2016,"Chris Froome"},{2017,"Chris Froome"}, {2018,"Geraint Thomas"}}
+
 ### Details
 
 **Course:** UiPath - RPA Developer Foundation
