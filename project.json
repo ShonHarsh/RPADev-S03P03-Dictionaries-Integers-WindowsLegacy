@@ -1,12 +1,13 @@
 {
-  "name": "RPADev-S03P03-Dictionaries-Integers",
+  "name": "RPADev-S03P03-Dictionaries-Integers-WindowsLegacy",
+  "projectId": "6a22a043-a98f-4496-bf8e-31d3574cf38a",
   "description": "Calculate and print the number of victories of each Tour de France winner\r\n\r\nGiven an input dictionary containing a year and a name, please calculate the number of victories of each winner and print all the names of the winners with the number of corresponding victories.\r\n\r\nNote: Initialize a dictionary of type (Int32, String) with the following value - New Dictionary(Of Int32,String) From {{2006,\"Oscar Pereiro\"},{2007,\"Alberto Contador\"}, {2008, \"Carlos Sastre\"}, {2009,\"Alberto Contador\"}, {201",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.10.4]",
-    "UiPath.Mail.Activities": "[1.10.5]",
-    "UiPath.System.Activities": "[21.4.1]",
-    "UiPath.UIAutomation.Activities": "[21.4.4]"
+    "UiPath.Excel.Activities": "[2.23.2-preview]",
+    "UiPath.Mail.Activities": "[1.22.2]",
+    "UiPath.System.Activities": "[24.3.0]",
+    "UiPath.UIAutomation.Activities": "[24.2.2-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -15,16 +16,21 @@
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -37,7 +43,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
